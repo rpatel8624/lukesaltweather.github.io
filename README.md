@@ -28,9 +28,8 @@ Goals:
 * outsource answers to an extra script
 * multiple random answers
 * randomized Timing (Word appearence)
-* always use https://
+* [DONE] always use https:// [Github doesn't want to take the htaccess, but technically it's working
 * add bilingual system (e.g. samaritan.ai/en or samaritan.ai/de )
-* rename repository
 
 Thanks to wit.ai (including l5t helping me  with this) and the original author of the Interface, Rodrigo Graça.
 
