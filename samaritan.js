@@ -22,7 +22,7 @@ var recording = false;
       };
      
       mic.onerror = function (err) {
-        executeSamaritan("Fatal Error detected. Please contact Admin");
+        executeSamaritan(" Fatal Error detected. Please contact Admin");
       };
       mic.onconnecting = function () {
         console.log("Microphone is connecting");
@@ -55,11 +55,10 @@ if(!$State.isText) {
     else {
     	mic.stop();
   	mic.onresult = function (intent, entities, response) {
-        console.log("Received Response: " + response);
+        console.log("Received Response: " + JSON.stringify(response));
   	console.log("Asset-Input: " + response.msg_body);
-     	sentence = response.msg_body;
-     	var answer = Calculate(sentence);
-     	executeSamaritan("Calculating Response . .. ..." + answer);
+     	var answer = Calculate(response.msg_body);
+     	executeSamaritan("Calculating Response . .. ... " + answer);
   	};
   	recording = false;
 }
