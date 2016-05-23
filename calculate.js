@@ -5,14 +5,19 @@ var Calculate = function(phrase) {
     case "guten tag":
     case "servus" :
     case "hallo" :
-      var answer = " Guten Tag .";
+      var answer = "Guten Tag .";
       return answer;
   
     case "wie geht es dir" :
-      var answer = " Sehr gut, und dir ?"
+      var answer = "Sehr gut, und dir ?"
       return answer;
+      
+    case "wie lauten deine befehle" :
+      var answer = "Finde die Maschine .";
+      return answer;
+      
    default:
-      answer = " ich verstehe nicht";
+      answer = "ich verstehe nicht";
        return answer;
   
   }}
