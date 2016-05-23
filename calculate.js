@@ -7,6 +7,10 @@ var Calculate = function(phrase) {
     case "hallo" :
       var answer = " guten tag .";
       return answer;
+    
+    case "wie lauten deine befehle" :
+      var answer = " finde die maschine .";
+      return answer;
   
     case "wie geht es dir" :
       var answer = " Sehr gut, und dir ?"
