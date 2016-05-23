@@ -30,6 +30,7 @@ Goals:
 * randomized Timing (Word appearence)
 * [DONE] always use https:// [Github doesn't want to take the htaccess, but technically it's working
 * add bilingual system (e.g. samaritan.ai/en or samaritan.ai/de )
+* Error Detection (Mic isn't connected)
 
 Thanks to wit.ai (including l5t helping me  with this) and the original author of the Interface, Rodrigo Graça.
 
