@@ -1,26 +1,20 @@
 var Calculate = function(phrase) {
   var sentence = phrase.toLowerCase();
   if(sentence != null){
-  switch(sentence){
-    case "guten tag":
-    case "servus" :
-    case "hallo" :
-      var answer = "Guten Tag .";
-      return answer;
-  
-    case "wie geht es dir" :
-      var answer = "Sehr gut, und dir ?"
-      return answer;
-      
-    case "wie lauten deine befehle" :
-      var answer = "Finde die Maschine .";
-      return answer;
-      
-   default:
-      answer = "ich verstehe nicht";
-       return answer;
-  
-  }}
+    $.ajax({
+  url: 'https://api.wit.ai/message',
+  data: {
+    'q': sentence,
+    'access_token' : 'XZXOIWC5TRUS6LIYQ7WRAC3ZZZU2RCRK'
+  },
+  dataType: 'jsonp',
+  method: 'GET',
+  success: function(response) {
+      console.log("success!", response);
+  }
+});
+    
+  }
   else{
     answer = "An Error occured";
     return answer;
