@@ -1,10 +1,10 @@
 var Calculate = function(phrase) {
-  var sentence = phrase;
+  var sentence = phrase.toLowerCase();
   if(sentence != null){
   switch(sentence){
-    case "Guten Tag":
-    case "Servus" :
-    case "Hallo" :
+    case "guten tag":
+    case "servus" :
+    case "hallo" :
       var answer = " Guten Tag .";
       return answer;
   
