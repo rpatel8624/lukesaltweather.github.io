@@ -1,6 +1,6 @@
 @font-face {
     font-family: magdacleanmono;
-    src: url(font/magdacleanmono-bold.ttf);
+    src: url(/font/magdacleanmono-bold.ttf);
 }
 body {
     color: #FFF;
