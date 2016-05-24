@@ -5,8 +5,9 @@ var Calculate = function(phrase) {
     case "guten tag":
     case "servus" :
     case "hallo" :
-      var answer = " guten tag .";
-      return answer;
+      var answer = ["guten tag .", "hallo .", "willkommen"];
+	  var randomNumber = Math.floor(Math.random()*answer.length);
+      return answer[randomNumber];
     
     case "wie lauten deine befehle" :
       var answer = " finde die maschine .";
