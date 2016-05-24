@@ -15,14 +15,13 @@ var recording = false;
       };
       mic.onaudiostart = function () {
         console.log("Recording started");
-        
+	};
+ 	mic.onerror = function (err) {
+        	executeSamaritan(errmsg);
+        	console.log(err);
       };
       mic.onaudioend = function () {
         console.log("stream ended");
-      };
-     
-      mic.onerror = function (err) {
-        executeSamaritan(" Fatal Error detected. Please contact Admin");
       };
       mic.onconnecting = function () {
         console.log("Microphone is connecting");
@@ -49,7 +48,7 @@ function Record()
 if(!$State.isText) {
     if (recording == false){
       mic.start();
-      executeSamaritan("Recording_now");
+      executeSamaritan(recordmsg);
       recording = true;
     }
     else {
@@ -73,9 +72,8 @@ else {
 function initSamaritan()
 {
 
-	var Init_Message = "Initalising Samaritan ... Samaritan initiated. Welcome to the open beta. What are your commands ?";
 	executeSamaritan(Init_Message);
-	mic.connect("XZXOIWC5TRUS6LIYQ7WRAC3ZZZU2RCRK");
+	mic.connect(contoken);
 	
 	}
 	
