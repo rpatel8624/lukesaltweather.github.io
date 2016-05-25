@@ -31,7 +31,7 @@ Goals:
 * [DONE] always use https:// [Github doesn't want to take the htaccess, but technically it's working
 * [In Progresss]add bilingual system (e.g. samaritan.ai/en or samaritan.ai/de )
 * Error Detection (Mic isn't connected)
-* minimize samaritan.js
+* [DONE] minimize samaritan.js
 
 Thanks to wit.ai (including l5t helping me  with this) and the original author of the Interface, Rodrigo Graça.
 
