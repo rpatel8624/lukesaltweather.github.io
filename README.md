@@ -32,6 +32,7 @@ Goals:
 * [DONE] check for text state even before animating the response.
 * improve conversation possibilities (main goal)
 * [In Progress]outsource answers to an extra script
+* Fix (Not showing Rec Ended-Msg sometimes)
 * [DONE]multiple random answers
 * randomized Timing (Word appearence)
 * [DONE] always use https:// [Github doesn't want to take the htaccess, but technically it's working
