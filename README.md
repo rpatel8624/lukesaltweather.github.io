@@ -13,7 +13,7 @@ GOOD NEWS! We're moving to V1! (as soon as performace is fixed, english is avail
 
 Short Info to V2: not comming soon. But it will search for keywords and will save context. Be prepared!
 
-(Maybe a better way of understanding text will come in V3)
+(Maybe an other way of understanding text will come in V3 (MY OWN TEXT-ANALYZER?))
 
 Developed by lukesaltweather
 
@@ -28,7 +28,7 @@ Again Click: Stop Recording and calculate Response!
 Take a look on the console, if there are several errors!
 
 Goals:
-* add Context and get information out of the spoken sentence 
+* add Context and get information out of the spoken sentence (Moved to V2)
 * [DONE] check for text state even before animating the response.
 * improve conversation possibilities (main goal)
 * [In Progress]outsource answers to an extra script
@@ -39,7 +39,7 @@ Goals:
 * Error Detection (Mic isn't connected)
 * [DONE] minimize samaritan.js
 
-Thanks to wit.ai (including l5t helping me  with this) and the original author of the Interface, Rodrigo Graça.
+Thanks to wit.ai (including l5t helping me  with this) and the original author of the Interface, Rodrigo Graça.)
 
 Visual-Stuff's author:
 Rodrigo Graça
