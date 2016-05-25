@@ -9,6 +9,12 @@ Technologies:
 
 [Now in Beta!]
 
+GOOD NEWS! We're moving to V1! (as soon as performace is fixed, english is available and there are more answers)
+
+Short Info to V2: not comming soon. But it will search for keywords and will save context. Be prepared!
+
+(Maybe a better way of understanding text will come in V3)
+
 Developed by lukesaltweather
 
 [free to use, but please give Credits to me and Rodrigo. Thx!]
