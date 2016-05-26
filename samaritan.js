@@ -56,8 +56,7 @@ if(!$State.isText) {
   	mic.onresult = function (intent, entities, response) {
         console.log("Received Response: " + JSON.stringify(response));
   	console.log("Asset-Input: " + response.msg_body);
-     	var answer = Calculate(response.msg_body);
-     	executeSamaritan("Calculating Response . .. ... " + answer);
+     	executeSamaritan("Calculating Response . .. ... " + Calculate(response.msg_body));
   	};
   	recording = false;
 }
