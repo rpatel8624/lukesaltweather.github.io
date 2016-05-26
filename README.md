@@ -7,9 +7,8 @@ Technologies:
 * CSS
 * JS
 
-[Now in Beta!]
+[V1 NOW AVAILABLE]
 
-GOOD NEWS! We're moving to V1! (as soon as performace is fixed, english is available and there are more answers)
 
 Short Info to V2: not comming soon. But it will search for keywords and will save context. Be prepared!
 
@@ -36,13 +35,13 @@ Goals:
 * [DONE]multiple random answers
 * randomized Timing (Word appearence)
 * [DONE] always use https:// [Github doesn't want to take the htaccess, but technically it's working
-* [In Progresss]add bilingual system (e.g. samaritan.ai/en or samaritan.ai/de )
+* [DONE]add bilingual system (e.g. samaritan.ai/en or samaritan.ai/de )
 * Error Detection (Mic isn't connected)
 * Record while holding the mousebutton
 * Touchscreen-Support
 * Android-App
 * Messenger and other API's
-* [DONE] minimize samaritan.js
+* [DONE] Performance increases
 
 Thanks to wit.ai (including l5t helping me  with this) and the original author of the Interface, Rodrigo Graça.)
 
