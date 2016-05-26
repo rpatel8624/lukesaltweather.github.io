@@ -2,22 +2,23 @@ var Calculate = function(phrase) {
   if(phrase != null){ 
     phrase = phrase.toLowerCase();
     switch(phrase){
-    case "guten tag":
-    case "servus" :
-    case "hallo" :
-      var answer = ["guten tag .", "hallo .", "willkommen"];
+    case "hello":
+    case "good afternoon" :
+    case "hi" :
+	case "howdy" :
+      var answer = ["hi .", "hello .", "welcome ."];
 	  var randomNumber = Math.floor(Math.random()*answer.length);
       return answer[randomNumber];
     
-    case "wie lauten deine befehle" :
-      var answer = " finde die maschine .";
+    case "what are your commands" :
+      var answer = " find the machine .";
       return answer;
   
-    case "wie geht es dir" :
-      var answer = " Sehr gut, und dir ?"
+    case "how are you" :
+      var answer = "fine, what about you ?"
       return answer;
    default:
-      answer = " ich verstehe nicht";
+      answer = "i don't understand";
        return answer;
   
   }
