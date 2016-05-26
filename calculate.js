@@ -1,7 +1,7 @@
 var Calculate = function(phrase) {
   if(phrase != null){ 
     phrase = phrase.toLowerCase();
-    switch(sentence){
+    switch(phrase){
     case "guten tag":
     case "servus" :
     case "hallo" :
