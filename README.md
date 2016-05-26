@@ -1,6 +1,6 @@
 Samaritan
 =========
-###Samaritan interface - [demo page](https://lukesaltweather.github.io/)
+###Samaritan interface - [demo page](https://lukesaltweather.github.io/en)
 
 Technologies:
 * HTML
@@ -17,8 +17,6 @@ Short Info to V2: not comming soon. But it will search for keywords and will sav
 Developed by lukesaltweather
 
 [free to use, but please give Credits to me and Rodrigo. Thx!]
-
-Interface at this Time only in German!
 
 How to use:
 Click: Record;
