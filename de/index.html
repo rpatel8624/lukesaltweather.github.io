@@ -4,12 +4,8 @@
         <title>Samaritan</title>
         <script>
            var userLang = navigator.language || navigator.userLanguage;
-           if(userLang == "de"){
-             window.location.replace("/de");
-           }
-           else
-          {
-           window.location.replace("/en");
+           if(userLang != "de"){
+             window.location.replace("/en");
          }
         </script>
         <meta charset="UTF-8">
