@@ -3,7 +3,13 @@
 <head>
 <script>
 var userLang = navigator.language || navigator.userLanguage;
-console.log(userLang);
+if(userLang == "de"){
+  window.location.replace(window.location.href + "de/");
+}
+else
+{
+  window.location.replace(window.location.href + "en/");
+}
 </script>
 </head>
 </html>
