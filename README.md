@@ -19,20 +19,11 @@ Developed by lukesaltweather
 [free to use, but please give Credits to me and Rodrigo. Thx!]
 
 How to use:
-Click: Record;
-Again Click: Stop Recording and calculate Response!
+Hold for record!
 
-Take a look on the console, if there are several errors!
-
-v1.1 coming soon including:
-* performance increases and fixes
-* Recording while holding mouse 
-* calculating while "calculate"-message
 
 Goals:
 
-* [in progress] calculate while showing message
-* [in progress] Record while holding the mousebutton
 * add Context and get information out of the spoken sentence (Moved to V2)
 * improve conversation possibilities
 * https check in index.html
@@ -44,7 +35,10 @@ Goals:
 * caching stuff
 * load scripts after site has loaded
 * Messenger and other API's
-* [DONE] Performance increases
+* minimize files (again)
+* [OUTSTANDING] Performance increases
+* [DONE] calculate while showing message
+* [DONE] Record while holding the mousebutton
 * [DONE] outsource answers to an extra script
 * [DONE] automatic language-selection
 * [DONE] check for text state even before animating the response.
