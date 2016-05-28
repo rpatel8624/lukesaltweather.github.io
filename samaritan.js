@@ -8,15 +8,20 @@ else {
 }
 }
 function initSamaritan() {
-    "https:" != window.location.protocol && (window.location.replace = "https:" + window.location.href.substring(window.location.protocol.length)), executeSamaritan(Init_Message), mic.connect(contoken)
+     executeSamaritan(Init_Message);
+    mic.connect(contoken);
 }
 function stopRecording()
 {
     executeSamaritan(calmsg);
     mic.stop();
+    executeSamaritan(".");
   	mic.onresult = function (intent, entities, response) {
   	console.log("Asset-Input: " + response.msg_body);
-    setTimeout(function(){executeSamaritan(Calculate(response.msg_body));}, 3000); 
+    sentence = response.msg_body;
+    executeSamaritan("..");
+    var answer = Calculate(sentence);
+    executeSamaritan("..." + answer); 
     }
 }
 $State = {
@@ -27,6 +32,7 @@ $State = {
 };
 
     var mic = new Wit.Microphone(document.getElementById("microphone"));
+var recording = false;
 mic.onerror = function(t) {
     executeSamaritan(errmsg), console.log(t)
 }, $.fn.textWidth = function() {
@@ -39,8 +45,17 @@ mic.onerror = function(t) {
     $State.triangle = $("#triangle"), $State.text = $("#main p"), $State.line = $("#main hr"), blinkTriangle(), initSamaritan(),    
     $(document).bind("mousedown", function() {
         Record();
+        recording = true;
     }).bind("mouseup", function() {
-        stopRecording();
+        if ((Date.now() - $State.lastMouseUp) <= 500)
+        {
+           executeSamaritan("Stop");
+        }
+        else{
+        if(recording == true){
+        stopRecord();
+        }
+        }
     }).bind("dblclick", function(){
         if (screenfull.enabled) {
                 screenfull.toggle();
