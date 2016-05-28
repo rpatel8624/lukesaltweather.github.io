@@ -24,6 +24,11 @@ Again Click: Stop Recording and calculate Response!
 
 Take a look on the console, if there are several errors!
 
+v1.1 coming soon including:
+* performance increases and fixes
+* Recording while holding mouse 
+* calculating while "calculate"-message
+
 Goals:
 
 * add Context and get information out of the spoken sentence (Moved to V2)
@@ -31,12 +36,12 @@ Goals:
 * Fix (Not showing Rec Ended-Msg sometimes)
 * randomized Timing (Word appearence)
 * Error Detection (Mic isn't connected)
-* Record while holding the mousebutton
+* [in progress] Record while holding the mousebutton
 * Touchscreen-Support
 * Android-App
 * caching stuff
 * load scripts afterwards
-* calculate while showing message 
+* [in progress] calculate while showing message 
 * Messenger and other API's
 * [DONE] Performance increases
 * [DONE] outsource answers to an extra script
