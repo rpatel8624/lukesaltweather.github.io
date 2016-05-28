@@ -47,7 +47,7 @@ Goals:
 * [DONE] multiple random answers
 
 
-Thanks to wit.ai (including l5t helping me  with this) and the original author of the Interface, Rodrigo Graça.)
+Thanks to wit.ai (including l5t helping me  with this) and the original author of the Interface, Rodrigo Graça.
 
 Visual-Stuff's author:
 Rodrigo Graça
