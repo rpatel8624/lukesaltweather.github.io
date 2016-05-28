@@ -16,7 +16,7 @@ function stopRecording()
     mic.stop();
   	mic.onresult = function (intent, entities, response) {
   	console.log("Asset-Input: " + response.msg_body);
-    setTimeout(executeSamaritan(Calculate(response.msg_body)), 3000); 
+    setTimeout(function(){console.log(Calculate(response.msg_body))}, 3000); 
     }
 }
 $State = {
