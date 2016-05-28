@@ -44,7 +44,7 @@ mic.onerror = function(t) {
     $(document).bind("mousedown", function() {
         Record();
     }).bind("mouseup", function() {
-        stopRecord();
+        stopRecording();
     }).bind("dblclick", function(){
         if (screenfull.enabled) {
                 screenfull.toggle();
