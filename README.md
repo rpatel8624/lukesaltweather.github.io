@@ -35,6 +35,7 @@ Goals:
 * [in progress] Record while holding the mousebutton
 * add Context and get information out of the spoken sentence (Moved to V2)
 * improve conversation possibilities
+* https check in index.html
 * Fix (Not showing Rec Ended-Msg sometimes)
 * randomized Timing (Word appearence)
 * Error Detection (Mic isn't connected)
