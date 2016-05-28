@@ -31,17 +31,17 @@ v1.1 coming soon including:
 
 Goals:
 
+* [in progress] calculate while showing message
+* [in progress] Record while holding the mousebutton
 * add Context and get information out of the spoken sentence (Moved to V2)
 * improve conversation possibilities
 * Fix (Not showing Rec Ended-Msg sometimes)
 * randomized Timing (Word appearence)
 * Error Detection (Mic isn't connected)
-* [in progress] Record while holding the mousebutton
 * Touchscreen-Support
 * Android-App
 * caching stuff
-* load scripts afterwards
-* [in progress] calculate while showing message 
+* load scripts after site has loaded
 * Messenger and other API's
 * [DONE] Performance increases
 * [DONE] outsource answers to an extra script
