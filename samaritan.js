@@ -16,9 +16,7 @@ function stopRecording()
     mic.stop();
   	mic.onresult = function (intent, entities, response) {
   	console.log("Asset-Input: " + response.msg_body);
-    var sentence = response.msg_body;
-    var answer = Calculate(sentence);
-    executeSamaritan(answer); 
+    executeSamaritan(Calculate(respone.msg_body)); 
     }
 }
 $State = {
