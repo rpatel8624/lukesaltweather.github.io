@@ -33,6 +33,7 @@ Goals:
 * Touchscreen-Support
 * Android-App
 * caching stuff
+* fix fullscreen bug
 * load scripts after site has loaded
 * Messenger and other API's
 * minimize files (again)
