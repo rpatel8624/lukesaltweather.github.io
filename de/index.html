@@ -3,10 +3,9 @@
     <head>
         <title>Samaritan</title>
         <script>
-            var loc = window.location.href+' ';
-            if(loc.indexOf('http://')==0){
-                window.location.replace = loc.replace('http://','https://');
-            }
+            if (window.location.protocol != "https:"){
+ window.location.replace = "https:" + window.location.href.substring(window.location.protocol.length);
+}
            var userLang = navigator.language || navigator.userLanguage;
            if(userLang != "de"){
              window.location.replace("/en");
