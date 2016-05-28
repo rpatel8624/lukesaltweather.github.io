@@ -25,8 +25,7 @@ Again Click: Stop Recording and calculate Response!
 Take a look on the console, if there are several errors!
 
 Goals:
-* [In Progress] Performance increases
-* [In Progress]outsource answers to an extra script
+
 * add Context and get information out of the spoken sentence (Moved to V2)
 * improve conversation possibilities
 * Fix (Not showing Rec Ended-Msg sometimes)
@@ -35,7 +34,12 @@ Goals:
 * Record while holding the mousebutton
 * Touchscreen-Support
 * Android-App
+* caching stuff
+* load scripts afterwards
+* calculate while showing message 
 * Messenger and other API's
+* [DONE] Performance increases
+* [DONE] outsource answers to an extra script
 * [DONE] automatic language-selection
 * [DONE] check for text state even before animating the response.
 * [DONE] always use https://
