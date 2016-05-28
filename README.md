@@ -25,22 +25,23 @@ Again Click: Stop Recording and calculate Response!
 Take a look on the console, if there are several errors!
 
 Goals:
-* add Context and get information out of the spoken sentence (Moved to V2)
-* [DONE] check for text state even before animating the response.
-* improve conversation possibilities (main goal)
+* [In Progress] Performance increases
 * [In Progress]outsource answers to an extra script
+* add Context and get information out of the spoken sentence (Moved to V2)
+* improve conversation possibilities
 * Fix (Not showing Rec Ended-Msg sometimes)
-* [DONE]multiple random answers
 * randomized Timing (Word appearence)
-* [DONE] always use https://
-* [DONE]add bilingual system (e.g. samaritan.ai/en or samaritan.ai/de )
 * Error Detection (Mic isn't connected)
 * Record while holding the mousebutton
 * Touchscreen-Support
 * Android-App
 * Messenger and other API's
-* automatic language-selection 
-* [In Progress] Performance increases
+* [DONE] automatic language-selection
+* [DONE] check for text state even before animating the response.
+* [DONE] always use https://
+* [DONE] add bilingual system (e.g. samaritan.ai/en or samaritan.ai/de )
+* [DONE] multiple random answers
+
 
 Thanks to wit.ai (including l5t helping me  with this) and the original author of the Interface, Rodrigo Graça.)
 
