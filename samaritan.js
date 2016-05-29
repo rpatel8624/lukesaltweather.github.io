@@ -15,13 +15,11 @@ function stopRecord()
 {
     executeSamaritan(calmsg);
     mic.stop();
-    executeSamaritan(".");
   	mic.onresult = function (intent, entities, response) {
   	console.log("Asset-Input: " + response.msg_body);
     sentence = response.msg_body;
-    executeSamaritan("..");
     var answer = Calculate(sentence);
-    executeSamaritan("..." + answer); 
+    setTimeout(function(){executeSamaritan(answer);});
     }
 }
 $State = {
