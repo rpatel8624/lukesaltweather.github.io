@@ -19,7 +19,7 @@ function stopRecord()
   	console.log("Asset-Input: " + response.msg_body);
     sentence = response.msg_body;
     var answer = Calculate(sentence);
-    setTimeout(function(){executeSamaritan(answer);});
+    setTimeout(function(){executeSamaritan(answer);}, 3000);
     }
 }
 $State = {
