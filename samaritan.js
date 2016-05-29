@@ -11,7 +11,7 @@ function initSamaritan() {
      executeSamaritan(Init_Message);
     mic.connect(contoken);
 }
-function stopRecording()
+function stopRecord()
 {
     executeSamaritan(calmsg);
     mic.stop();
