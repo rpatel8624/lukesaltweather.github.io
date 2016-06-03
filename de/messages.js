@@ -4,3 +4,4 @@ var recordmsg = "Aufnahme";
 var Init_Message = "Initalisiere Samaritan ... Samaritan initiert. Willkommen zu Version 1. wie lauten deine Befehle ?";
 var contoken = "XZXOIWC5TRUS6LIYQ7WRAC3ZZZU2RCRK";
 var calmsg = "Berechne Antwort";
+var baseUrl = "https://api.api.ai/v1/";
