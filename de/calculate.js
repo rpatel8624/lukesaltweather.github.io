@@ -6,7 +6,6 @@ var Calculate = function (phrase) {
                 contentType: "application/json; charset=utf-8",
                 dataType: "json",
                 global: false,
-                async: false,
                 headers: {
                     "Authorization": "Bearer " + apiToken
                 },
