@@ -1,3 +1,4 @@
+var baseUrl = "https://api.api.ai/v1/";
 function Record() {
 if(!$State.isText) {
       mic.start();
