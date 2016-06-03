@@ -11,12 +11,12 @@ var Calculate = function (phrase) {
                 data: JSON.stringify({ q: phrase, lang: "de" }),
                 success: function (data) {
                     intent = data;
+                     console.log(intent);
                 },
                 error: function () {
                     executeSamaritan("Ein fehler trat auf");
                 }
             });
-            console.log(intent);
     }
     else {
         answer = "Ein Fehler trat auf .";
