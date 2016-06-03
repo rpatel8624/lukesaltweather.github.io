@@ -5,3 +5,4 @@ var Init_Message = "Initalisiere Samaritan ... Samaritan initiert. Willkommen zu
 var contoken = "XZXOIWC5TRUS6LIYQ7WRAC3ZZZU2RCRK";
 var calmsg = "Berechne Antwort";
 var baseUrl = "https://api.api.ai/v1/";
+var apiToken = "b344e44a760249d8aa2dfb5b6920805b";
