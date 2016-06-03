@@ -10,7 +10,7 @@ var Calculate = function (phrase) {
                 },
                 data: JSON.stringify({ q: phrase, lang: "de" }),
                 success: function (data) {
-                    var intent = data;
+                    intent = data;
                 },
                 error: function () {
                     executeSamaritan("Ein fehler trat auf");
