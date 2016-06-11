@@ -13,7 +13,7 @@ var Calculate = function (phrase) {
 				data: JSON.stringify({ q: text, lang: "de" }),
 				success: function(data) {
 					console.log(JSON.stringify(data, undefined, 2));
-					var answer = funktional;
+					var answer = "funktional";
 				},
 				error: function() {
 					console.log("Internal Server Error");
