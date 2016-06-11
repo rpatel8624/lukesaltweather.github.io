@@ -21,7 +21,7 @@ var Calculate = function (phrase) {
 			});
 			console.log("Loading...");
 			return answer;
-		}
+		
     }
     else {
         answer = "Ein Fehler trat auf .";
