@@ -2,7 +2,6 @@ var Calculate = function (phrase) {
     if (phrase != null) {
     	var text = phrase;
             $.ajax({
-            
 				type: "POST",
 				url: baseUrl + "query/",
 				contentType: "application/json; charset=utf-8",
@@ -27,4 +26,8 @@ var Calculate = function (phrase) {
         executeSamaritan("ein fehler trat auf");
         return;
     }
+}
+var handleIntent = function(rawIntent) {
+	intent = rawIntent.intent;
+	return intent;
 }
