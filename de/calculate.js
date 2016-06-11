@@ -1,7 +1,8 @@
 var Calculate = function (phrase) {
     if (phrase != null) {
-            var intent;
+    	var text = phrase;
             $.ajax({
+            
 				type: "POST",
 				url: baseUrl + "query/",
 				contentType: "application/json; charset=utf-8",
@@ -9,14 +10,18 @@ var Calculate = function (phrase) {
 				headers: {
 					"Authorization": "Bearer " + accessToken
 				},
-				data: JSON.stringify({ q: phrase, lang: "de" }),
+				data: JSON.stringify({ q: text, lang: "de" }),
 				success: function(data) {
 					console.log(JSON.stringify(data, undefined, 2));
+					var answer = funktional;
 				},
 				error: function() {
 					console.log("Internal Server Error");
 				}
 			});
+			console.log("Loading...");
+			return answer;
+		}
     }
     else {
         answer = "Ein Fehler trat auf .";
