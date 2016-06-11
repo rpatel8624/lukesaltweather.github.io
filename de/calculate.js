@@ -13,18 +13,18 @@ var Calculate = function (phrase) {
 				data: JSON.stringify({ q: text, lang: "de" }),
 				success: function(data) {
 					console.log(JSON.stringify(data, undefined, 2));
-					var answer = "funktional";
+					executeSamaritan(handleIntent(data));
 				},
 				error: function() {
-					console.log("Internal Server Error");
+					executeSamaritan("Internal Server Error");
 				}
 			});
-			console.log("Loading...");
-			return answer;
+			executeSamaritan("Loading...");
+			return;
 		
     }
     else {
-        answer = "Ein Fehler trat auf .";
-        return answer;
+        executeSamaritan("ein fehler trat auf");
+        return;
     }
 }
